@@ -9,3 +9,11 @@ export interface Department {
     updated_at?: string;
     children?: Department[];
 }
+
+
+export interface NewDepartment {
+    name: string;
+    employees: number;
+    ambassador: string;
+    parent_id: number | null;
+}
