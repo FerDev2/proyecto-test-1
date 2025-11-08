@@ -5,7 +5,8 @@ import {
     getDepartments,
     createDepartment,
     deleteMultipleDepartments, // 👈 función para eliminar varios
-} from "@/app/api/departments/route";
+} from "@/services/departments";
+
 import { Department } from "@/types/Department";
 
 import {
